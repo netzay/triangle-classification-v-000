@@ -8,7 +8,10 @@ class Triangle
   end
   
   def kind(type) 
-    if @one 
+    if (@one + @two + @three)/3 = 0 
+      return :equilateral
+    end
+    if 
   end
 
 
