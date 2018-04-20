@@ -7,7 +7,7 @@ class Triangle
     @three = three
   end
   
-  def kind(type) 
+  def kind 
    
   end
 
