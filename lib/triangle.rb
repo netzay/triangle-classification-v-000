@@ -1,3 +1,14 @@
 class Triangle
-  # write code here
+  attr_accessor :one, :two, :three 
+  
+  def initialize(one, two, three)
+    
+  end
+
+
+
+class TriangleError < StandarError
+
+
+  end
 end
