@@ -11,7 +11,7 @@ class Triangle
     if (@one + @two + @three)/3 = 0 
       return :equilateral
     end
-    if (@one + @two)/2 = 0 or (@one + @three)/2 = 0 
+    if ((@one + @two)/2 = 0) or ((@one + @three)/2 = 0) 
       return :isoceles
     end
     if (@one + @two + @three)/3 != 0 
