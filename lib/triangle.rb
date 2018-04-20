@@ -13,7 +13,6 @@ class Triangle
   return :equilateral if @one == @three
   return :isosceles if @one == @two or @two == @three
   return :scalene
-end
     
   end
 
