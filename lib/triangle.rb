@@ -8,15 +8,7 @@ class Triangle
   end
   
   def kind(type) 
-    if (@one + @two + @three)/3 
-      return :equilateral
-    end
-    if (@one + @two)/2 
-      return :isoceles
-    end
-    if (@one + @two + @three)/3
-      return :scalene
-    end
+   
   end
 
 
