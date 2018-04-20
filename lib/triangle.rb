@@ -8,7 +8,12 @@ class Triangle
   end
   
   def kind 
-    
+  @one, @two, @three = [@one, @two, @three].sort
+  raise TriangleError if @one <= 0 or @two + @two <= @three
+  return :equilateral if @one == @three
+  return :isosceles if @one == @two or @two == @three
+  return :scalene
+end
     
   end
 
